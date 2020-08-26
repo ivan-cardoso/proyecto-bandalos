@@ -1,0 +1,659 @@
+@import "variables"; 
+@import "header";
+@import "tipografias";
+
+
+img{
+    width: 100%;
+}
+
+.portada{
+    height: 100vh;
+    background-image: url(../multimedia/img38.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+@media (max-width:900px){
+    .portada{
+        height: 92vh;
+    }
+}
+
+.portada-bandalos{
+    height: 100vh;
+    background-image: url(../multimedia/goy10.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+
+.portada-musica{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../multimedia/gui-1-5.jpg);
+    background-position:center;
+    background-size:cover ;
+}
+
+.portada-fechas{
+    height: 100vh;
+    background-image: url(../multimedia/113_website_image_sktj_standard.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+
+.portada-noticias{
+    height: 100vh;
+    background-image: url(../multimedia/img36.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+
+
+
+
+ul{
+    list-style-type: none;
+}
+
+
+
+#galeriaBandalos{
+    display: grid;
+    grid-template-areas: 
+    "goyo     bandalo2    bandalo5"
+    "goyo     bandalo2    bandalo5"
+    "goyo     bandalo4    bandalo5"
+    "bandalo6 bandalo4    bandalo3"
+    "bandalo6 bandalo7    bandalo3"
+    "bandalo6 bandalo7    bandalo3"
+    
+    ;
+    grid-template-columns: 28% 40% auto;
+    grid-template-rows: 180px 180px 180px 180px 180px 180px;
+    grid-column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    padding: 1.5rem;
+    background-image:
+        url(../multimedia/fondo4.jpg);
+    }
+
+
+.imagenItems img{
+    height: 100%; 
+}
+
+.bordes {
+    border-radius: 15px;
+}
+
+#bandalo1{
+    grid-area: goyo;
+    filter: grayscale(95%);
+    background-image: url(../multimedia/goy4.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: $box__shadow;
+}
+#bandalo1:hover{
+    transition: width 2s, height 2s, transform 1s;
+    transform: scale(1.025);
+    filter: none;
+    cursor: pointer;
+}
+#bandalos1:hover  .nombreBandalo{
+    opacity: 100%;
+    transition: all .5s;
+}
+
+#bandalo2{
+    grid-area: bandalo2;
+    filter: grayscale(95%);
+    background-image: url(../multimedia/gui-1-8.jpg);
+    background-size: cover;
+    box-shadow: $box__shadow;
+}
+#bandalo2:hover{
+    transition: width 2s, height 2s, transform 1s;
+    filter: none;
+    transform: scale(1.025);
+    cursor: pointer;
+}
+#bandalo3{
+    grid-area: bandalo3;
+    filter: grayscale(95%);
+    background-image: url(../multimedia/img13.jpg);
+    background-size: cover;
+    box-shadow: $box__shadow;
+}
+#bandalo3:hover{
+    transition: width 2s, height 2s, transform 1s;
+    filter: none;
+    transform: scale(1.025);
+    cursor: pointer;
+}
+#bandalo4{
+    grid-area: bandalo4;
+    filter: grayscale(95%);
+    background-image: url(../multimedia/gui-2-2.jpg);
+    background-size: cover;
+    box-shadow: $box__shadow;
+}
+#bandalo4:hover{
+    transition: width 2s, height 2s, transform 1s;
+    filter: none;
+    transform: scale(1.025);
+    cursor: pointer;
+}
+#bandalo5{
+    grid-area: bandalo5;
+    filter: grayscale(95%);
+    background-image: url(../multimedia/chapi3.jpg);
+    background-size: cover;
+    box-shadow: $box__shadow;
+}
+#bandalo5:hover{
+    transition: width 2s, height 2s, transform 1s;
+    filter: none;
+    transform: scale(1.025);
+    cursor: pointer;
+}
+#bandalo6{
+    
+    grid-area: bandalo6;
+    filter: grayscale(95%);
+    background-image: url(../multimedia/sax1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: $box__shadow;
+}
+#bandalo6:hover{
+    transition: width 2s, height 2s, transform 1s;
+    filter: none;
+    transform: scale(1.025);
+    cursor: pointer;
+}
+#bandalo7{
+    
+    grid-area: bandalo7;
+    filter: grayscale(95%);
+    background-image: url(../multimedia/bat4.jpg);
+    background-size: cover;
+    box-shadow: $box__shadow;
+}
+#bandalo7:hover{
+    transition: width 2s, height 2s, transform 1s;
+    filter: none;
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+@media (max-width:1000px){
+    #galeriaBandalos{
+        display: flex;
+        flex-direction: column;
+    }
+    #bandalo1{
+        height: 30rem;
+        margin-bottom: 1.6rem;
+        filter: grayscale(95%);
+        background-image: url(../multimedia/goy4.png);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #bandalo2{
+        height: 30rem;
+        margin-bottom: 1.6rem;
+        filter: grayscale(95%);
+        background-image: url(../multimedia/gui-1-8.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #bandalo3{
+        height: 30rem;
+        margin-bottom: 1.6rem;
+        filter: grayscale(95%);
+        background-image: url(../multimedia/img13.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #bandalo4{
+        height: 30rem;
+        margin-bottom: 1.6rem;
+        filter: grayscale(95%);
+        background-image: url(../multimedia/gui-2-2.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #bandalo5{
+        height: 30rem;
+        margin-bottom: 1.6rem;
+        filter: grayscale(95%);
+        background-image: url(../multimedia/chapi3.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #bandalo6{
+
+        height: 30rem;
+        margin-bottom: 1.6rem;
+        filter: grayscale(95%);
+        background-image: url(../multimedia/sax1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #bandalo7{
+
+        height: 30rem;
+        margin-bottom: 1.6rem;
+        filter: grayscale(95%);
+        background-image: url(../multimedia/bat4.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.seccion__carousel{  
+    background-image: linear-gradient(343deg,#ca247156,#37c5b04d
+    ),
+    url(../multimedia/fondo-textura-grunge_1048-9279.jpg);
+    padding-top: 3.5rem;
+    
+}
+
+
+
+.section__aftermovie{/*
+    background-image: linear-gradient(
+    #f25ca271, 
+    #f25ca271
+    ),
+    url(../multimedia/fondo-textura-grunge_1048-9279.jpg);*/
+    .section__aftermovie--video{
+        filter: grayscale(.9);   
+    }
+    .letra{
+        position: relative;
+    }
+    .seccion__aftermovie_letrachina{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*top: 25%;
+        left: 0;
+        right: 0;
+        bottom: 0;*/
+        margin: auto;
+        width: 20rem;
+    }
+    .seccion__aftermovie__subtitulo{
+        
+        font-family: 'Patua One', cursive;
+        color: white;
+        font-size: 1.2rem;
+        letter-spacing: .53rem;
+        text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.8); 
+        text-transform: uppercase;
+    }
+}
+@media (min-width:700px){
+    .section__aftermovie{
+     .seccion__aftermovie_letrachina{
+        position: absolute;
+        top: 25%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 38rem;
+    } 
+    .seccion__aftermovie__subtitulo{
+        font-size:2rem; 
+        letter-spacing: 1.165rem;
+        text-align: center;
+    } 
+     
+}
+    
+}
+@media (min-width:1000px){
+    .section__aftermovie{
+     .seccion__aftermovie_letrachina{
+        
+        width: 60rem;
+    } 
+     .seccion__aftermovie__subtitulo{
+        font-size:3rem; 
+        text-align: center;
+    } 
+}
+    
+}
+
+
+
+
+#sin__senal{
+    background-image:
+        url(../multimedia/fondo4.jpg);
+        padding: 0 3rem 3rem 3rem;
+}
+
+
+
+
+
+.reproductor__inicio__img--estilos{
+    border-radius:8px ;
+    
+
+        img{
+            
+            border-radius: 8px;
+            -webkit-box-shadow: 15px 15px 33px -15px rgba(49, 28, 28, 0.85);
+            -moz-box-shadow: 15px 15px 33px -15px rgba(0,0,0,0.85);
+            box-shadow: 15px 15px 33px -15px rgba(0,0,0,0.85);   
+            
+        }
+        img:hover{
+            box-shadow: 0 .9rem .8rem rgba(0, 0, 0, 0.8);   
+            
+        }
+        .reproductor__inicio__img--estilos{
+            transform: scale(1.1);
+            transition: 1.2s;
+        }
+        .reproductor__inicio__boton__play{
+            position: absolute;
+            color: rgba(0, 0, 0, 0.719);
+        }
+        .reproductor__inicio__boton__play:hover{
+            transform: scale(1.1);
+            transition: 1.2s;
+            color: rgba(0,0,0,0.85);
+        }
+
+        @media (min-width:790px) {
+            img{
+                height: 30rem;
+            }
+            
+            img:hover{
+                box-shadow: 0 .9rem .8rem rgba(0, 0, 0, 0.8);   
+                transform: scale(1.015);
+                transition: 1.2s;
+                
+            } 
+            .reproductor__inicio__boton__play{
+                transform: scale(1.5);
+            }
+            .reproductor__inicio__boton__play:hover{
+                transform: scale(1.7);
+            }
+        }
+}
+
+.sin__señal__texto{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    @media (min-width:1200px){
+    .sin__señal__texto{
+        align-items: flex-start;
+    }
+
+}
+
+
+.sin__señal__titulo{
+    font-family: 'Patua One', cursive;
+    font-size: 4.3rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+}
+
+.sin__señal__subtitulo{
+   font-family: 'Dancing Script', cursive;
+    font-size: 3.8rem;
+    letter-spacing: .2rem;
+    -webkit-text-stroke: 1px #e16379;
+    color: #dd3957; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+    transform: rotate(356deg) translateY(-2.1rem);   
+}
+
+@media (min-width:1200px){
+        .sin__señal__titulo{
+            font-size: 5rem;
+            
+        }
+
+        .sin__señal__subtitulo{
+            font-size: 5rem;
+            transform: rotate(356deg) translateY(-3rem) translateX(25px)
+        }
+    }
+
+
+
+.sin__señal_subtitulo__boton{
+    transform: translateY(-2rem);
+}
+@media (min-width:1200px){
+    .sin__señal_subtitulo__boton{
+        transform: translateY(-2rem) translateX(2rem);
+    }
+}
+
+
+
+.separacion__arriba__sinseñal{
+    background-image: url(../multimedia/division-abajo.png);
+    height: 4rem;
+    background-position: inherit;
+    transform: translateY(-3rem) ;
+    background-repeat: no-repeat;
+}
+
+.separacion__arriba--estilo{
+    background-image: url(../multimedia/division-abajo.png);
+    height: 4rem;
+    background-position: inherit;
+    transform: translateY(-3rem) rotateY(180deg);
+    background-repeat: no-repeat;
+}
+
+.separacion__abajo__sinseñal{
+    background-image: url(../multimedia/division-arriba.png) ;
+    height: 3.5rem;
+    background-position: bottom;
+    transform: translateY(3rem);
+    background-repeat: no-repeat;
+}
+/*
+@media (min-width:780px){
+    .separacion__abajo__sinseñal{
+        background-image: url(../multimedia/division-nueva-arriba.png) ;
+        height: 5rem;
+        background-position: bottom;
+        transform: translateY(4rem);
+    }  
+}*/
+
+
+.separacion__abajo--estilo {
+  background-image: url(../multimedia/division-arriba.png) ;
+  height: 5rem;
+  background-repeat: no-repeat;
+  /*background-position: bottom;*/
+  transform: translateY(-.5rem);
+}
+
+
+.noticias__3{
+    display: none;
+}
+@media (min-width:1000px){
+    .noticias__3{
+        display: block;
+    }
+}
+/*
+@media (min-width:1200px){
+    .separacion__abajo--estilo{
+        height: 7rem;
+    }
+    .separacion__arriba--estilo{
+        height: 7rem;
+        transform: translateY(-6.5rem);
+    }
+}*/
+
+.subtitulo__pag__bandalos{
+    width: 100%;
+    height: 8rem;
+    background-image:
+        url(../multimedia/fondo4.jpg);
+}
+
+
+.subtitulo__pag__bandalos--estilos{
+    font-family: 'Patua One', sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: .2rem;
+    -webkit-text-stroke: 1px #554394;
+    color: rgba(84 ,31 ,60,0.8);
+    text-shadow: 2.5px 2px 2px #17c5e0f0 ; 
+    text-align: center;
+    transform: translateY(4rem);
+    
+}
+
+@media (min-width:600px){
+    .subtitulo__pag__bandalos--estilos{
+        font-size:3.2rem;
+    }
+}
+@media (min-width:1000px){
+    .subtitulo__pag__bandalos--estilos{
+        font-size:4rem;
+    }
+}
+
+
+
+
+
+.nuevo{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-image:
+        url(../multimedia/fondo4.jpg);
+    height: 15em;
+}
+
+
+.bandalos__botones__estilos{
+    
+    border-radius: 2rem;
+    background-image: url(../multimedia/fondo3.png);
+    background-position: inherit;
+    background-size: cover;
+    box-shadow: 4px 0px 7px 0px #8b9799f0;
+    color: white;
+    font-weight:bold;
+    font-size:1.1rem;
+    
+}
+.bandalos__botones__estilos:hover{
+    transform: scale(1.1);
+    color:white;
+    transition: .7s;
+}
+
+
+
+
+@media (min-width:700px){
+    .nuevo{
+        justify-content: center;
+        
+    }
+    .bandalos__botones__estilos{
+        margin: 0 2rem;
+    }
+    .bandalos__botones__estilos{
+        font-size:1.4rem ;
+        padding: 1.2rem;
+        width: 15rem;
+    }
+}
+
+
+.icono-footer{
+    color:white;
+    font-size: 2.5rem;
+}
+
+.icono-facebook:hover{
+    color: #3b5998;
+    transform: scale(1.2);
+    transition: .6s;
+}
+.icono-spotify:hover{
+    color: #1DB954;
+    transform: scale(1.2);
+    transition: .6s;
+}
+.icono-instagram:hover{
+    color:  #c13584;
+    transform: scale(1.2);
+    transition: .6s;
+}
+.icono-twitter:hover{
+    color: #00acee;
+    transform: scale(1.2);
+    transition: .6s;
+}
+.icono-youtube:hover{
+    color: #c4302b;
+    transform: scale(1.2);
+    transition: .6s;
+}
+
+
+#letra-china-bandalos{
+    background-color: teal;
+}
+
+
+#footer a{
+    color: whitesmoke;
+}

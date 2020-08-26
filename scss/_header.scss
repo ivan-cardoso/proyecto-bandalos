@@ -1,0 +1,66 @@
+
+.nav__menu--color{
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.top-nav-collapse{
+    background-color:rgba(255, 255, 255, 0.774);
+    transition: 1.5s;
+}
+
+.nav__logo{
+   width: 10rem;
+} 
+.nav__logo:hover{
+    color:$color__navitem__hover;  
+}
+@media  (min-width:1000px){
+    
+    .nav__logo{
+        font-size: 1.5rem;
+    }
+    
+    .nav__logo:hover{
+        transform: scale(1.3);
+        transition: 1s;
+    }
+}
+.nav__items{
+    font-size: 1.4rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    color: $color__navitem;
+}
+.nav__boton{
+    background-color:$color__navitem;
+    border: 1px solid black;  
+}
+.nav__boton:hover{
+    background-color: #3bdeec;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#nav__spotify{
+    color:$color__navitem ;
+}
+#nav__spotify:hover{
+    color: #1DB954;
+}
+
+#nav__instagram{
+    color:$color__navitem;
+}
+
+#nav__instagram:hover{
+    color: #c13584;
+}
+
+
+#navbarNav .nav__items--estilos{
+    color: $color__navitem;  
+}
+#navbarNav .nav__items--estilos:hover{
+    color:#056a74;
+    transition: .7s;
+}
