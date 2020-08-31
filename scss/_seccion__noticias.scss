@@ -1,0 +1,149 @@
+
+// Variables
+
+
+
+.prueba__carta{
+
+margin-bottom: 3rem;
+
+
+    
+// clear-fix mixin
+@mixin cf {
+  &::before,
+  &::after {
+    content: '';
+    display: table;
+  }
+  &::after {
+    clear: both;
+  }
+}
+
+
+
+.row {
+  max-width: 100rem;
+  margin: 50px auto 0;
+}
+
+@media (min-width:700px){
+    .row {
+        max-width: 100rem;
+        margin: 0 3.5rem;
+      } 
+}
+
+// Base styles
+.card {
+  
+    margin-bottom:2rem ;
+
+  width: 100%;
+  .menu-content {
+    
+    li {
+      display: inline-block;
+    }
+    a {
+      color: $white;
+    }
+    span {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      font-size: 10px;
+      font-weight: 700;
+      font-family: 'Open Sans';
+      transform: translate(-50%, 0);
+    }
+  }
+  .noticia__carta--1,.noticia__carta--2, .noticia__carta--3 {
+    background-color: $white;
+    min-height: 420px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 19px 38px rgba($black, 0.3), 0 15px 12px rgba($black, 0.2);
+    &:hover {
+      .data {
+        transform: translateY(0);
+      }
+    }
+  }
+  .data {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(calc(70px + 1em));
+    transition: transform 0.3s;
+    .content {
+      padding: 1em;
+      position: relative;
+      z-index: 1;
+    }
+  }
+  .author {
+    font-size: 12px;
+  }
+  .title {
+    margin-top: 10px;
+  }
+  .text {
+    height: 70px;
+    margin: 0;
+  }
+  input[type='checkbox'] {
+    display: none;
+  }
+  input[type='checkbox']:checked + .menu-content {
+    transform: translateY(-60px);
+  }
+}
+
+// First example styles
+.noticia__carta{ 
+
+  .noticia__carta--1 {
+    background-image: url(../multimedia/nota-1.jpg) ;
+    background-size: contain;
+  }
+  .noticia__carta--2{
+      background-image:url(../multimedia/nota-2.jpg) ;
+      background-size: contain;
+  }
+  .noticia__carta--3{
+    background-image:url(../multimedia/nota-3.jpg) ;
+    background-size: contain;
+  }
+  .date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $bermuda;
+    color: $white;
+    padding: 0.5em;
+    span {
+      display: block;
+      text-align: center;
+    }
+    .day {
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-shadow: 2px 3px 2px rgba($black, 0.18);
+    }
+    
+  }
+  .content {
+    background-color: $white;
+    box-shadow: 0 5px 30px 10px rgba($black, 0.3);
+  }
+  .title {
+    a {
+      color: lighten($black, 50%);
+    }
+  }
+}
+
+
+}
