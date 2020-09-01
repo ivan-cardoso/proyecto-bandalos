@@ -3,6 +3,7 @@
 @import "tipografias";
 @import "footer"; 
 @import "seccion__noticias";
+@import "musica";
 
 img{
     width: 100%;
@@ -30,7 +31,7 @@ img{
 .portada-musica{
     height: 100vh;
     width: 100%;
-    background-image: url(../multimedia/gui-1-5.jpg);
+    background-image: url(../multimedia/gui-1-7.jpg);
     background-position:center;
     background-size:cover ;
 }

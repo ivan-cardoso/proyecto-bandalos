@@ -1,0 +1,27 @@
+.musica{
+    background-image: url(../multimedia/fondo4.jpg);
+    background-attachment: fixed;
+}
+
+
+
+.fa-angle-down:before{
+    position: absolute;
+   right: 2rem;
+    top: 1rem; 
+}
+
+.card__letra__titulo{
+   font-family: "Josefin Sans", sans-serif ; 
+}
+
+.titulo__cancion--estilos{
+    background: rgb(249,121,85);
+    background: linear-gradient(0deg, rgba(249,121,85,0.4944852941176471) 5%, rgba(49,134,255,1) 32%);
+}
+
+
+.rgba-grey-light{
+    background: rgb(16,75,172);
+background: linear-gradient(166deg, rgba(16,75,172,0.8530287114845938) 19%, rgba(18,55,84,0.8194152661064426) 71%);
+}

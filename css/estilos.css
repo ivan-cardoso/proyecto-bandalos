@@ -172,6 +172,26 @@
   .prueba__carta .noticia__carta .title a {
     color: gray; }
 
+.musica {
+  background-image: url(../multimedia/fondo4.jpg);
+  background-attachment: fixed; }
+
+.fa-angle-down:before {
+  position: absolute;
+  right: 2rem;
+  top: 1rem; }
+
+.card__letra__titulo {
+  font-family: "Josefin Sans", sans-serif; }
+
+.titulo__cancion--estilos {
+  background: #f97955;
+  background: linear-gradient(0deg, rgba(249, 121, 85, 0.494485) 5%, #3186ff 32%); }
+
+.rgba-grey-light {
+  background: #104bac;
+  background: linear-gradient(166deg, rgba(16, 75, 172, 0.853029) 19%, rgba(18, 55, 84, 0.819415) 71%); }
+
 img {
   width: 100%; }
 
@@ -194,7 +214,7 @@ img {
 .portada-musica {
   height: 100vh;
   width: 100%;
-  background-image: url(../multimedia/gui-1-5.jpg);
+  background-image: url(../multimedia/gui-1-7.jpg);
   background-position: center;
   background-size: cover; }
 
