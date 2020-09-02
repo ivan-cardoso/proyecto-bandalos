@@ -204,6 +204,9 @@
 .accordion > .card {
   background-color: transparent; }
 
+.accordion > .card > .card-header {
+  border-radius: .3rem; }
+
 .musica__2 {
   background: radial-gradient(circle, rgba(252, 101, 78, 0.752188) 15%, #ff3f32 100%);
   background-attachment: fixed; }
