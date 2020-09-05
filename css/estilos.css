@@ -198,6 +198,10 @@
   width: 20rem;
   height: 20rem; }
 
+.musica__fondo__bach--color {
+  background: #104bac;
+  background: linear-gradient(166deg, rgba(16, 75, 172, 0.853029) 19%, rgba(18, 55, 84, 0.819415) 71%); }
+
 .card-header {
   border-bottom: none; }
 
@@ -218,6 +222,29 @@
   width: 20rem;
   height: 20rem; }
 
+.titulo__cancion__aire--estilos {
+  background: #613b45;
+  background: linear-gradient(20deg, #613b45 9%, rgba(102, 77, 103, 0.334821) 85%); }
+
+.musica__3 {
+  background: #59f290;
+  background: radial-gradient(circle, rgba(89, 242, 144, 0.502889) 7%, rgba(112, 108, 107, 0.189163) 39%, rgba(250, 250, 250, 0.928659) 57%); }
+
+.musica__portada__nunca--estilos {
+  background-image: url(../multimedia/nunca-estuve-aca.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20rem;
+  height: 20rem; }
+
+.titulo__cancion__nunca--estilos {
+  background: #706b6d;
+  background: linear-gradient(20deg, rgba(112, 107, 109, 0.721376) 47%, rgba(77, 103, 87, 0.208771) 96%); }
+
+.musica__fondo__nunca--color {
+  background: #787777;
+  background: linear-gradient(20deg, #787777 9%, rgba(158, 154, 158, 0.948267) 85%); }
+
 .disco__aire--estilos {
   color: white; }
 
@@ -230,11 +257,7 @@
   font-family: "Josefin Sans", sans-serif; }
 
 .titulo__cancion--estilos {
-  background: linear-gradient(0deg, rgba(249, 121, 85, 0.494485) 5%, #3186ff 32%); }
-
-.rgba-grey-light {
-  background: #104bac;
-  background: linear-gradient(166deg, rgba(16, 75, 172, 0.853029) 19%, rgba(18, 55, 84, 0.819415) 71%); }
+  background-color: rgba(49, 134, 255, 0.95); }
 
 img {
   width: 100%; }
