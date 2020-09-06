@@ -270,6 +270,25 @@
   padding-right: 1.2rem;
   padding-left: 1.2rem; }
 
+.videoclips .videoclips__titulo__video {
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: .3rem;
+  color: white;
+  bottom: 0;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  font-family: "Patua One", sans-serif;
+  font-size: 1.5rem; }
+
+.videoclips .videoclips__boton {
+  color: rgba(253, 253, 253, 0.65); }
+
+.videoclips .videoclips__boton:hover {
+  color: rgba(253, 253, 253, 0.9); }
+
 .modal {
   top: 20%; }
 
@@ -594,7 +613,7 @@ ul {
 
 .reproductor__inicio__boton__play {
   position: absolute;
-  color: rgba(0, 0, 0, 0.719); }
+  color: rgba(0, 0, 0, 0.81); }
 
 .reproductor__inicio__boton__play:hover {
   transform: scale(1.1);
