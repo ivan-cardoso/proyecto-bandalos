@@ -1,0 +1,25 @@
+.videoclips{
+    .videos__portada--estilos{
+        height: 14rem;
+        
+    }
+    .videos__portada--estilos:hover{
+        transform: scale(1.02);
+        transition: 1s;
+    }
+    .video__carta{
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    }
+    
+}
+
+.modal{
+    top: 20%;
+}
+
+@media (min-width:700px){
+    .modal{
+        top: 0;
+    }
+}

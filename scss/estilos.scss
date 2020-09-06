@@ -4,6 +4,7 @@
 @import "footer"; 
 @import "seccion__noticias";
 @import "musica";
+@import "video";
 
 img{
     width: 100%;
@@ -375,14 +376,14 @@ ul{
             
         }
         img:hover{
-            box-shadow: 0 .9rem .8rem rgba(0, 0, 0, 0.8);   
-            transform: scale(1.1);
-            transition: 1.2s;
+            box-shadow: 0 .9rem .8rem rgba(0, 0, 0, 0.6);   
+            transform: scale(1.05);
+            transition: 1s;
         }
         .reproductor__inicio__img--estilos:hover{
             box-shadow: 0 .9rem .8rem rgba(0, 0, 0, 0.8);
-            transform: scale(1.1);
-            transition: 1.2s;
+            transform: scale(1.05);
+            transition: 1s;
         }
         @media (min-width:790px) {
             img{
@@ -396,10 +397,10 @@ ul{
                 
             } 
             .reproductor__inicio__boton__play{
-                transform: scale(1.5);
+                transform: scale(1.3);
             }
             .reproductor__inicio__boton__play:hover{
-                transform: scale(1.7);
+                transform: scale(1.4);
             }
         }
     }
