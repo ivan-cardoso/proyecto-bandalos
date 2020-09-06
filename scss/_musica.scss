@@ -5,6 +5,10 @@
     
 }
 
+.musica__columna{
+        margin-right:0.2rem;
+        margin-left: 0.2rem;
+    }
 .musica__portada__disco{
         justify-content: center;
         flex-direction: column;
@@ -12,29 +16,28 @@
         margin-bottom: 1.5rem;
     }
     
-    .disco__subtitulo{
-        font-family: 'Dancing Script', cursive;
-        font-size: 4.2rem;
-        letter-spacing: .2rem;
-        /*
-        -webkit-text-stroke: 1px #63afe1;*/
-        color: #000000; 
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
-         
-    }
+.disco__subtitulo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.2rem;
+    letter-spacing: .2rem;
+    color: #000000; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+    text-align: center;
+        
+}
     
-    .musica__portada__bach--estilos{
-            background-image: url(../multimedia/bach.jpg) ;
-            background-repeat: no-repeat;
-            background-size: contain;
-            width: 20rem;
-            height: 20rem;
-            
-        }
-    .musica__fondo__bach--color{
-        background: rgb(16,75,172);
-        background: linear-gradient(166deg, rgba(16,75,172,0.8530287114845938) 19%, rgba(18,55,84,0.8194152661064426) 71%);
+.musica__portada__bach--estilos{
+        background-image: url(../multimedia/bach.jpg) ;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 20rem;
+        height: 20rem;
+        
     }
+.musica__fondo__bach--color{
+    background: rgb(16,75,172);
+    background: linear-gradient(166deg, rgba(16,75,172,0.8530287114845938) 19%, rgba(18,55,84,0.8194152661064426) 71%);
+}
 
 .card-header{
     border-bottom: none;

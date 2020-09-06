@@ -10,6 +10,7 @@
 
 .nav__logo{
    width: 10rem;
+   filter: drop-shadow(2px 2px 4px rgba(0,0,0,.8));
 } 
 .nav__logo:hover{
     color:$color__navitem__hover;  
