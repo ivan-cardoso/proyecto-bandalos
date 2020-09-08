@@ -105,22 +105,49 @@ margin-bottom: 3rem;
 .noticia__carta{ 
 
   .noticia__carta--1 {
-    background-image: url(../multimedia/nota-1.jpg) ;
+    background-image: url(../multimedia/nota-1.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+    
   }
   .noticia__carta--2{
       background-image:url(../multimedia/nota-2.jpg) ;
       background-size: contain;
+      background-repeat: no-repeat;
+      
   }
   .noticia__carta--3{
     background-image:url(../multimedia/nota-3.jpg) ;
     background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  @media (min-width:700px){
+    .noticia__carta--1 {
+      background-image: url(../multimedia/nota-1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .noticia__carta--2{
+        background-image:url(../multimedia/nota-2.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .noticia__carta--3{
+      background-image:url(../multimedia/nota-3.jpg) ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-position-y: -3rem;
+    }
   }
   .date {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: $bermuda;
+    background-color: #800e4daf;
     color: $white;
     padding: 0.5em;
     span {

@@ -16,7 +16,7 @@
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8)); }
 
 .nav__logo:hover {
-  color: #056a74; }
+  color: #800e4ce0; }
 
 @media (min-width: 1000px) {
   .nav__logo {
@@ -29,34 +29,34 @@
   font-size: 1.4rem;
   font-family: 'Inconsolata', monospace;
   font-weight: bold;
-  color: #06aebc; }
+  color: #c41d79e0; }
 
 .nav__boton {
-  background-color: #06aebc;
+  background-color: #c41d79e0;
   border: 1px solid black; }
 
 .nav__boton:hover {
-  background-color: #3bdeec;
+  background-color: #800e4ce0;
   transform: scale(1.1);
   transition: 1s; }
 
 #nav__spotify {
-  color: #06aebc; }
+  color: #c41d79e0; }
 
 #nav__spotify:hover {
   color: #1DB954; }
 
 #nav__instagram {
-  color: #06aebc; }
+  color: #c41d79e0; }
 
 #nav__instagram:hover {
   color: #c13584; }
 
 #navbarNav .nav__items--estilos {
-  color: #06aebc; }
+  color: #c41d79e0; }
 
 #navbarNav .nav__items--estilos:hover {
-  color: #056a74;
+  color: #800e4ce0;
   transition: .7s; }
 
 .icono-footer {
@@ -90,6 +90,9 @@
 
 #footer a {
   color: whitesmoke; }
+
+.footer--estilo {
+  background-color: #800e4ce0; }
 
 .prueba__carta {
   margin-bottom: 3rem; }
@@ -146,18 +149,38 @@
       transform: translateY(-60px); }
   .prueba__carta .noticia__carta .noticia__carta--1 {
     background-image: url(../multimedia/nota-1.jpg);
-    background-size: contain; }
+    background-size: contain;
+    background-repeat: no-repeat; }
   .prueba__carta .noticia__carta .noticia__carta--2 {
     background-image: url(../multimedia/nota-2.jpg);
-    background-size: contain; }
+    background-size: contain;
+    background-repeat: no-repeat; }
   .prueba__carta .noticia__carta .noticia__carta--3 {
     background-image: url(../multimedia/nota-3.jpg);
-    background-size: contain; }
+    background-size: contain;
+    background-repeat: no-repeat; }
+  @media (min-width: 700px) {
+    .prueba__carta .noticia__carta .noticia__carta--1 {
+      background-image: url(../multimedia/nota-1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+    .prueba__carta .noticia__carta .noticia__carta--2 {
+      background-image: url(../multimedia/nota-2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+    .prueba__carta .noticia__carta .noticia__carta--3 {
+      background-image: url(../multimedia/nota-3.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-position-y: -3rem; } }
   .prueba__carta .noticia__carta .date {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #249abebd;
+    background-color: #800e4daf;
     color: #fff;
     padding: 0.5em; }
     .prueba__carta .noticia__carta .date span {
@@ -291,7 +314,7 @@
   color: rgba(253, 253, 253, 0.65); }
 
 .videoclips .videoclips__boton:hover {
-  color: rgba(253, 253, 253, 0.9); }
+  color: #800e4d9d; }
 
 .modal {
   top: 20%; }
@@ -346,18 +369,18 @@
 .row:hover .fechas__dia__mes {
   color: white;
   transition: all .8s;
-  border-right: 5px solid #06aebc; }
+  border-right: 5px solid #c41d79e0; }
 
 .row:hover .fechas__lugar p {
   color: white;
   transition: all .5s; }
 
 .row:hover .fechas__boton {
-  border: 2px solid #06aebc;
+  border: 2px solid #c41d79e0;
   transition: all .8s;
   box-shadow: none;
   color: white;
-  background-color: #06adbca6; }
+  background-color: #800e4da1; }
 
 @media (min-width: 700px) {
   .fechas .fechas__dia__numero {
@@ -815,8 +838,7 @@ ul {
   font-family: 'Patua One', sans-serif;
   font-size: 2.4rem;
   letter-spacing: .2rem;
-  -webkit-text-stroke: 1px #554394;
-  color: rgba(84, 31, 60, 0.8);
+  color: #a21d98b8;
   text-shadow: 2.5px 2px 2px #17c5e0f0;
   text-align: center;
   transform: translateY(4rem); }
@@ -889,7 +911,7 @@ ul {
 
 .noticias__botones--estilos {
   border-radius: 0.4rem;
-  background-image: url(../multimedia/fondo1.jpg);
+  background-image: url(../multimedia/fondo3.png);
   background-position: center;
   background-size: cover;
   box-shadow: 4px 0px 7px 0px #8b9799f0;
