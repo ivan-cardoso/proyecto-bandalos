@@ -22,7 +22,7 @@
     }
     
     .nav__logo:hover{
-        transform: scale(1.05);
+        transform: scale(1.03);
         transition: .8s;
     }
 }
@@ -31,6 +31,7 @@
     font-family: 'Inconsolata', monospace;
     font-weight: bold;
     color: $color__navitem;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
 }
 .nav__boton{
     background-color:$color__navitem;
@@ -62,6 +63,6 @@
     color: $color__navitem;  
 }
 #navbarNav .nav__items--estilos:hover{
-    color:$color__navitem__hover;
+    color:white;
     transition: .7s;
 }

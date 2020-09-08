@@ -16,11 +16,13 @@ img{
     background-image: url(../multimedia/img38.jpg);
     background-position: center;
     background-size:cover ;
+    background-attachment: fixed;
 }
 @media (max-width:900px){
     .portada{
         height: 92vh;
     }
+    background-attachment: fixed;
 }
 
 .portada-bandalos{
@@ -28,6 +30,7 @@ img{
     background-image: url(../multimedia/goy10.jpg);
     background-position: center;
     background-size:cover ;
+    background-attachment: fixed;
 }
 
 .portada-musica{
@@ -36,6 +39,7 @@ img{
     background-image: url(../multimedia/gui-1-7.jpg);
     background-position:center;
     background-size:cover ;
+    background-attachment: fixed;
 }
 
 .portada-fechas{
@@ -43,6 +47,7 @@ img{
     background-image: url(../multimedia/portadaindex.jpg);
     background-position: center;
     background-size:cover ;
+    background-attachment: fixed;
 }
 
 @media (min-width:700px){
@@ -56,6 +61,24 @@ img{
     background-image: url(../multimedia/img36.jpg);
     background-position: center;
     background-size:cover ;
+    background-attachment: fixed;
+}
+
+.portada-videoclips{
+    height: 100vh;
+    background-image: url(../multimedia/img27.jpg);
+    background-position-x: -10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media (min-width:600px){
+    .portada-videoclips{
+        background-attachment: fixed;
+        background-position-x: 0;
+       
+    }
 }
 
 
@@ -104,7 +127,7 @@ ul{
 #bandalo1{
     grid-area: goyo;
     filter: grayscale(95%);
-    background-image: url(../multimedia/goy4.png);
+    background-image: url(../multimedia/goy-bandalos.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -125,7 +148,7 @@ ul{
 #bandalo2{
     grid-area: bandalo2;
     filter: grayscale(95%);
-    background-image: url(../multimedia/gui-1-8.jpg);
+    background-image: url(../multimedia/gui-1-bandalos.jpg);
     background-size: cover;
     box-shadow: $box__shadow;
 }
@@ -178,7 +201,7 @@ ul{
     
     grid-area: bandalo6;
     filter: grayscale(95%);
-    background-image: url(../multimedia/sax1.jpg);
+    background-image: url(../multimedia/sax-bandalos.jpg);
     background-size: cover;
     background-position: center;
     box-shadow: $box__shadow;
@@ -268,7 +291,7 @@ ul{
         height: 30rem;
         margin-bottom: 1.6rem;
         filter: grayscale(95%);
-        background-image: url(../multimedia/sax1.jpg);
+        background-image: url(../multimedia/sax-bandalos.jpg);
         background-size: cover;
         background-position: center;
         background-position: center;
@@ -640,6 +663,10 @@ ul{
     transform: scale(1.1);
     color:white;
     transition: .7s;
+}
+
+.btn{
+    padding: .84rem 1.5rem;
 }
 
 

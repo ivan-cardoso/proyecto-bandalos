@@ -1,5 +1,5 @@
 .fechas{
-    background-image: url(../multimedia/gui-2-3.jpg);
+    background-image: url(../multimedia/goyo-20.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -77,6 +77,7 @@
 
 @media (min-width:700px){
     .fechas{
+        background-image: url(../multimedia/gui-2-3.jpg);
         .fechas__dia__numero{
             display: flex;
             align-items: center;
@@ -145,4 +146,11 @@
          }
          
     }
+}
+
+.sepacion__fechas{
+    background-image: url(../multimedia/division-arriba.png);
+    height: 5rem;
+    background-repeat: no-repeat;
+    transform: translateY(1.8rem);
 }
