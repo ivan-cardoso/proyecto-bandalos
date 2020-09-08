@@ -5,6 +5,7 @@
 @import "seccion__noticias";
 @import "musica";
 @import "video";
+@import "fechas";
 
 img{
     width: 100%;
@@ -38,10 +39,16 @@ img{
 }
 
 .portada-fechas{
-    height: 100vh;
-    background-image: url(../multimedia/113_website_image_sktj_standard.jpg);
+    height: 65vh;
+    background-image: url(../multimedia/portadaindex.jpg);
     background-position: center;
     background-size:cover ;
+}
+
+@media (min-width:700px){
+    .portada-fechas{
+        height: 100vh;
+    }
 }
 
 .portada-noticias{
@@ -548,7 +555,7 @@ ul{
     
     background-image:
         url(../multimedia/fondo4.jpg);
-    height: 15em;
+    height: 12em;
 }
 
 .bandalos__botones--estilos{

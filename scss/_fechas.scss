@@ -1,0 +1,148 @@
+.fechas{
+    background-image: url(../multimedia/gui-2-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    .row{
+        background-color: rgba(37, 41, 39, 0.5);
+        color: white;
+    }
+    .fechas__dia{
+        
+    }
+    .fechas__dia__numero{
+        display: flex;
+        align-items: center;
+       h4{
+           font-family: "Oswald", sans-serif;
+           font-size: 2rem;
+           margin: 0;
+           padding: .3rem;
+       }
+    }
+    .fechas__dia__mes{
+       display: flex;
+       flex-direction: column;
+       border-right: 5px solid white;
+       padding-right: .4rem;
+       font-size: 1rem;
+       font-weight:bolder ;
+       margin-left: .5rem;
+       color: rgba(255, 255, 255, .65);
+    }
+    .fechas__lugar{
+       p{
+        margin: 0; 
+        margin-left: .4rem;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, .65);
+        font-weight:bolder;        
+       }
+    }
+    .btn{
+        border: 2px solid white;
+    }
+    .fechas__boton{
+        padding: .7rem ;
+        margin: 1.5rem;
+        border-radius: 0.4rem;
+        font-size: .9rem;
+        box-shadow: none; 
+        color: rgba(255, 255, 255, .65);
+        font-weight: bolder;
+    }
+}
+
+.row:hover{
+    .fechas__dia__mes{
+        color: white;
+        transition: all .8s;
+        border-right: 5px solid $color__navitem;
+    }
+    .fechas__lugar{
+        p{
+            color: white;
+            transition: all .5s;
+        }
+    }
+    .fechas__boton{
+        border: 2px solid $color__navitem;
+        transition: all .8s;
+        box-shadow: none;
+        color: white;
+        background-color: #06adbca6;
+    }  
+}
+
+@media (min-width:700px){
+    .fechas{
+        .fechas__dia__numero{
+            display: flex;
+            align-items: center;
+           h4{
+               font-family: "Oswald", sans-serif;
+               font-size: 3.8rem;
+               margin: 0;
+               padding: .45rem;
+           }
+        }
+        .fechas__dia__mes{
+            display: flex;
+            flex-direction: column;
+            border-right: 5px solid white;
+            padding-right: 1.4rem;
+            font-size: 1.3rem;
+            font-weight:bolder ;
+            margin-left: 1rem;
+            color: rgba(255, 255, 255, .65);
+         }
+         .fechas__lugar{
+            p{
+             margin: 0; 
+             margin-left: 2rem;
+             font-size: 1.5rem;
+             color: rgba(255, 255, 255, .65);
+             font-weight:bolder;        
+            }
+         }
+         .fechas__boton{
+             margin: 1rem;
+         }
+    }
+}
+
+@media (min-width:1000px){
+    .fechas{
+        .fechas__dia__numero{
+            display: flex;
+            align-items: center;
+           h4{
+               font-family: "Oswald", sans-serif;
+               font-size: 3.8rem;
+               margin: 0;
+               padding: .45rem;
+           }
+        }
+        .fechas__dia__mes{
+            display: flex;
+            flex-direction: column;
+            border-right: 5px solid white;
+            padding-right: 1.4rem;
+            font-size: 1.3rem;
+            font-weight:bolder ;
+            margin-left: 1rem;
+            color: rgba(255, 255, 255, .65);
+         }
+         .fechas__lugar{
+            p{
+             margin: 0; 
+             margin-left: 2rem;
+             font-size: 2.2rem;
+             color: rgba(255, 255, 255, .65);
+             font-weight:bolder;        
+            }
+         }
+         
+    }
+}
