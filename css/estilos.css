@@ -447,13 +447,12 @@ img {
   width: 100%; }
 
 .portada {
-  height: 100vh;
-  background-image: url(../multimedia/portada-mobile.jpg);
+  height: 90vh;
+  background-image: url(../multimedia/portada-mobile-2.jpg);
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center; }
+  background-attachment: fixed; }
 
-@media (min-width: 600px) {
+@media (min-width: 450px) {
   .portada {
     background-image: url(../multimedia/img38.jpg);
     background-position: center; } }
