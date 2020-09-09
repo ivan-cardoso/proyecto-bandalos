@@ -448,15 +448,15 @@ img {
 
 .portada {
   height: 100vh;
-  background-image: url(../multimedia/img38.jpg);
-  background-position: center;
+  background-image: url(../multimedia/portada-mobile.jpg);
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-position: center; }
 
-@media (max-width: 900px) {
+@media (min-width: 600px) {
   .portada {
-    height: 92vh; }
-  background-attachment: fixed; }
+    background-image: url(../multimedia/img38.jpg);
+    background-position: center; } }
 
 .portada-bandalos {
   height: 100vh;
@@ -853,7 +853,6 @@ ul {
   background-image: url(../multimedia/division-arriba.png);
   height: 5rem;
   background-repeat: no-repeat;
-  /*background-position: bottom;*/
   transform: translateY(-0.5rem); }
 
 .subtitulo__pag__bandalos {
@@ -914,15 +913,6 @@ ul {
 #letra-china-bandalos {
   background-color: teal; }
 
-/*
-.noticias__3{
-    display: none;
-}
-@media (min-width:1000px){
-    .noticias__3{
-        display: block;
-    }
-}*/
 .noticias {
   background-image: url(../multimedia/fondo4.jpg); }
   .noticias .card .card-body .card-text {

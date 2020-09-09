@@ -13,16 +13,16 @@ img{
 
 .portada{
     height: 100vh;
-    background-image: url(../multimedia/img38.jpg);
-    background-position: center;
-    background-size:cover ;
+    background-image: url(../multimedia/portada-mobile.jpg);
+    background-size:cover;
     background-attachment: fixed;
+    background-position:center;
 }
-@media (max-width:900px){
+@media (min-width:600px){
     .portada{
-        height: 92vh;
+        background-image: url(../multimedia/img38.jpg);
+        background-position: center;
     }
-    background-attachment: fixed;
 }
 
 .portada-bandalos{
@@ -530,7 +530,6 @@ ul{
   background-image: url(../multimedia/division-arriba.png) ;
   height: 5rem;
   background-repeat: no-repeat;
-  /*background-position: bottom;*/
   transform: translateY(-.5rem);
 }
 
@@ -546,7 +545,6 @@ ul{
     font-family: 'Patua One', sans-serif;
     font-size: 2.4rem;
     letter-spacing: .2rem;
-    
     color: #a21d98b8;
     text-shadow: 2.5px 2px 2px #17c5e0f0 ; 
     text-align: center;
@@ -564,9 +562,6 @@ ul{
         font-size:4rem;
     }
 }
-
-
-
 
 
 .seccion__bandalos__botones{
@@ -617,16 +612,6 @@ ul{
     background-color: teal;
 }
 
-/*
-.noticias__3{
-    display: none;
-}
-@media (min-width:1000px){
-    .noticias__3{
-        display: block;
-    }
-}*/
-
 .noticias{
     background-image: url(../multimedia/fondo4.jpg);
     .card .card-body .card-text {
@@ -644,8 +629,6 @@ ul{
     }
     
 }
-
-
 
 
 .noticias__botones--estilos{
