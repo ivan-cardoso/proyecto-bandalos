@@ -1,14 +1,8 @@
 
-// Variables
-
-
-
-.prueba__carta{
+.seccion__noticias{
 
 margin-bottom: 3rem;
-
-
-    
+  
 // clear-fix mixin
 @mixin cf {
   &::before,
@@ -61,7 +55,7 @@ margin-bottom: 3rem;
   }
   .noticia__carta--1,.noticia__carta--2, .noticia__carta--3 {
     background-color: $white;
-    min-height: 420px;
+    min-height: 21rem;
     position: relative;
     overflow: hidden;
     box-shadow: 0 19px 38px rgba($black, 0.3), 0 15px 12px rgba($black, 0.2);
@@ -75,7 +69,7 @@ margin-bottom: 3rem;
     position: absolute;
     bottom: 0;
     width: 100%;
-    transform: translateY(calc(70px + 1em));
+    transform: translateY(7.5rem);
     transition: transform 0.3s;
     .content {
       padding: 1em;
@@ -97,7 +91,7 @@ margin-bottom: 3rem;
     display: none;
   }
   input[type='checkbox']:checked + .menu-content {
-    transform: translateY(-60px);
+    transform: translateY(-80px);
   }
 }
 
