@@ -67,27 +67,27 @@
 .icono-facebook:hover {
   color: #3b5998;
   transform: scale(1.2);
-  transition: .6s; }
+  transition: .3s; }
 
 .icono-spotify:hover {
   color: #1DB954;
   transform: scale(1.2);
-  transition: .6s; }
+  transition: .3s; }
 
 .icono-instagram:hover {
   color: #c13584;
   transform: scale(1.2);
-  transition: .6s; }
+  transition: .3s; }
 
 .icono-twitter:hover {
   color: #00acee;
   transform: scale(1.2);
-  transition: .6s; }
+  transition: .3s; }
 
 .icono-youtube:hover {
   color: #c4302b;
   transform: scale(1.2);
-  transition: .6s; }
+  transition: .3s; }
 
 #footer a {
   color: whitesmoke; }
@@ -292,7 +292,7 @@
 
 .videoclips .videos__portada--estilos:hover {
   transform: scale(1.02);
-  transition: 1s; }
+  transition: .4s; }
 
 .videoclips .video__carta {
   padding-right: 1.2rem;
@@ -328,7 +328,8 @@
   background-image: url(../multimedia/goyo-20.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position-y: -2rem;
+  background-size: 100vh;
   height: 100%; }
   .fechas .row {
     background-color: rgba(37, 41, 39, 0.5);
@@ -762,18 +763,18 @@ ul {
   .reproductor__inicio__img--estilos img:hover {
     box-shadow: 0 0.9rem 0.8rem rgba(0, 0, 0, 0.6);
     transform: scale(1.05);
-    transition: 1s; }
+    transition: .5s; }
   .reproductor__inicio__img--estilos .reproductor__inicio__img--estilos:hover {
     box-shadow: 0 0.9rem 0.8rem rgba(0, 0, 0, 0.8);
     transform: scale(1.05);
-    transition: 1s; }
+    transition: .5s; }
   @media (min-width: 790px) {
     .reproductor__inicio__img--estilos img {
       height: 30rem; }
     .reproductor__inicio__img--estilos img:hover {
       box-shadow: 0 0.9rem 0.8rem rgba(0, 0, 0, 0.8);
       transform: scale(1.015);
-      transition: 1.2s; }
+      transition: .5s; }
     .reproductor__inicio__img--estilos .reproductor__inicio__boton__play {
       transform: scale(1.3); }
     .reproductor__inicio__img--estilos .reproductor__inicio__boton__play:hover {
@@ -785,7 +786,7 @@ ul {
 
 .reproductor__inicio__boton__play:hover {
   transform: scale(1.1);
-  transition: 1.2s;
+  transition: .5s;
   color: rgba(0, 0, 0, 0.85); }
 
 .sin__señal__texto {
@@ -897,7 +898,7 @@ ul {
 .bandalos__botones--estilos:hover {
   transform: scale(1.1);
   color: white;
-  transition: .7s; }
+  transition: .3s; }
 
 @media (min-width: 700px) {
   .seccion__bandalos__botones {
@@ -939,7 +940,7 @@ ul {
 .noticias__botones--estilos:hover {
   transform: scale(1.1);
   color: white;
-  transition: .7s; }
+  transition: .3s; }
 
 .btn {
   padding: .84rem 1.5rem; }

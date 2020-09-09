@@ -406,12 +406,12 @@ ul{
         img:hover{
             box-shadow: 0 .9rem .8rem rgba(0, 0, 0, 0.6);   
             transform: scale(1.05);
-            transition: 1s;
+            transition: .5s;
         }
         .reproductor__inicio__img--estilos:hover{
             box-shadow: 0 .9rem .8rem rgba(0, 0, 0, 0.8);
             transform: scale(1.05);
-            transition: 1s;
+            transition: .5s;
         }
         @media (min-width:790px) {
             img{
@@ -421,7 +421,7 @@ ul{
             img:hover{
                 box-shadow: 0 .9rem .8rem rgba(0, 0, 0, 0.8);   
                 transform: scale(1.015);
-                transition: 1.2s;
+                transition: .5s;
                 
             } 
             .reproductor__inicio__boton__play{
@@ -440,7 +440,7 @@ ul{
     }
     .reproductor__inicio__boton__play:hover{
         transform: scale(1.1);
-        transition: 1.2s;
+        transition: .5s;
         color: rgba(0,0,0,0.85);
     }        
 
@@ -589,7 +589,7 @@ ul{
 .bandalos__botones--estilos:hover{
     transform: scale(1.1);
     color:white;
-    transition: .7s;
+    transition: .3s;
 }
 
 @media (min-width:700px){
@@ -644,7 +644,7 @@ ul{
 .noticias__botones--estilos:hover{
     transform: scale(1.1);
     color:white;
-    transition: .7s;
+    transition: .3s;
 }
 
 .btn{
