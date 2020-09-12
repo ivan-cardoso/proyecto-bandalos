@@ -42,15 +42,17 @@ img{
 }
 
 .portada-fechas{
-    height: 65vh;
-    background-image: url(../multimedia/portadaindex.jpg);
+    
+    height: 100vh;
+    background-image: url(../multimedia/img36.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size:cover ;
-    background-attachment: fixed;
 }
 
 @media (min-width:700px){
     .portada-fechas{
+        background-image: url(../multimedia/img27.jpg);
         height: 100vh;
     }
 }
@@ -65,18 +67,17 @@ img{
 
 .portada-videoclips{
     height: 100vh;
-    background-image: url(../multimedia/img27.jpg);
-    background-position-x: -10rem;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(../multimedia/goyo-videoclip.jpg);
+    background-position: bottom;
+    background-size:cover ;
     background-attachment: fixed;
 }
 
 @media (min-width:600px){
     .portada-videoclips{
-        background-attachment: fixed;
-        background-position-x: 0;
-       
+        background-image: url(../multimedia/portadaindex.jpg);
+        background-position: center;
+        height: 100vh;
     }
 }
 
@@ -648,7 +649,7 @@ ul{
 }
 
 .btn{
-    padding: .84rem 1.5rem;
+    padding: .84rem 1rem;
 }
 
 

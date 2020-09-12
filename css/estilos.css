@@ -90,7 +90,13 @@
   transition: .3s; }
 
 #footer a {
-  color: whitesmoke; }
+  color: whitesmoke;
+  font-family: "Inconsolata", sans-serif;
+  font-size: bolder; }
+
+#footer a:hover {
+  color: white;
+  transform: scale(1.025); }
 
 .footer--estilo {
   background-color: #800e4ce0; }
@@ -325,9 +331,8 @@
     top: 0; } }
 
 .fechas {
-  background-image: url(../multimedia/goyo-20.jpg);
-  background-attachment: fixed;
-  background-size: cover;
+  background: #08516f;
+  background: linear-gradient(10deg, rgba(8, 81, 111, 0.550508) 13%, #3c2650 51%, rgba(3, 86, 120, 0.869835) 65%, rgba(74, 63, 84, 0.864233) 95%);
   background-position: center;
   height: 100%; }
   .fechas .row {
@@ -385,7 +390,10 @@
 
 @media (min-width: 700px) {
   .fechas {
-    background-image: url(../multimedia/gui-2-3.jpg); }
+    background-image: url(../multimedia/gui-2-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
     .fechas .fechas__dia__numero {
       display: flex;
       align-items: center; }
@@ -473,14 +481,15 @@ img {
   background-attachment: fixed; }
 
 .portada-fechas {
-  height: 65vh;
-  background-image: url(../multimedia/portadaindex.jpg);
-  background-position: center;
+  height: 100vh;
+  background-image: url(../multimedia/img36.jpg);
   background-size: cover;
-  background-attachment: fixed; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 @media (min-width: 700px) {
   .portada-fechas {
+    background-image: url(../multimedia/img27.jpg);
     height: 100vh; } }
 
 .portada-noticias {
@@ -492,16 +501,16 @@ img {
 
 .portada-videoclips {
   height: 100vh;
-  background-image: url(../multimedia/img27.jpg);
-  background-position-x: -10rem;
+  background-image: url(../multimedia/goyo-videoclip.jpg);
+  background-position: bottom;
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed; }
 
 @media (min-width: 600px) {
   .portada-videoclips {
-    background-attachment: fixed;
-    background-position-x: 0; } }
+    background-image: url(../multimedia/portadaindex.jpg);
+    background-position: center;
+    height: 100vh; } }
 
 ul {
   list-style-type: none; }
@@ -942,4 +951,4 @@ ul {
   transition: .3s; }
 
 .btn {
-  padding: .84rem 1.5rem; }
+  padding: .84rem 1rem; }
