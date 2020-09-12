@@ -455,7 +455,7 @@ img {
   width: 100%; }
 
 .portada {
-  height: 90vh;
+  height: 100vh;
   background-image: url(../multimedia/portada-mobile-2.jpg);
   background-size: cover;
   background-attachment: fixed; }
@@ -951,4 +951,4 @@ ul {
   transition: .3s; }
 
 .btn {
-  padding: .84rem 1rem; }
+  padding: .84rem 1.4rem; }
