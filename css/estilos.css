@@ -169,12 +169,12 @@
     background-repeat: no-repeat; }
   @media (min-width: 700px) {
     .seccion__noticias .noticia__carta .noticia__carta--1 {
-      background-image: url(../multimedia/nota-1.jpg);
+      background-image: url(../multimedia/img37.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; }
     .seccion__noticias .noticia__carta .noticia__carta--2 {
-      background-image: url(../multimedia/img37.jpg);
+      background-image: url(../multimedia/nota-2.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center; }
@@ -479,7 +479,7 @@ img {
 
 @media (min-width: 450px) {
   .portada-bandalos {
-    background-image: url(../multimedia/nota-2.jpg);
+    background-image: url(../multimedia/nota-1.jpg);
     background-position: top; } }
 
 .portada-musica {
@@ -719,7 +719,8 @@ ul {
     justify-content: center; } }
 
 .seccion__carousel {
-  background-image: linear-gradient(343deg, #ca247156, #37c5b04d), url(../multimedia/textura-carousel.jpg);
+  background: #b46f66;
+  background: linear-gradient(3.5deg, #8f2b3de6 20%, #dca880 40%, #c49179d6 60%, #c49579 80%);
   padding: 5rem 0; }
 
 .seccion__carousel--foto {

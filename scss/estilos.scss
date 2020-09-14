@@ -36,7 +36,7 @@ img{
 
 @media (min-width:450px){
     .portada-bandalos{
-        background-image:url(../multimedia/nota-2.jpg) ;
+        background-image:url(../multimedia/nota-1.jpg) ;
         background-position: top;
     }
 }
@@ -323,9 +323,8 @@ ul{
 }
 
 .seccion__carousel{  
-    background-image: linear-gradient(343deg,#ca247156,#37c5b04d
-    ),
-    url(../multimedia/textura-carousel.jpg);
+    background: rgb(180,111,102);
+    background: linear-gradient(3.5deg, #8f2b3de6  20%,#dca880 40%, #c49179d6 60%, #c49579 80%);
     padding: 5rem 0;
 }
 
