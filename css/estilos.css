@@ -460,7 +460,8 @@ img {
 .portada {
   height: 90vh;
   background-image: url(../multimedia/img-portada-2.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 @media (min-width: 450px) {
   .portada {
@@ -486,12 +487,12 @@ img {
 
 .portada-fechas {
   height: 100vh;
-  background-image: url(../multimedia/img36.jpg);
+  background-image: url(../multimedia/portada-fechas-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 
-@media (min-width: 700px) {
+@media (min-width: 550px) {
   .portada-fechas {
     background-image: url(../multimedia/img27.jpg);
     height: 100vh; } }
@@ -771,7 +772,8 @@ ul {
     border-radius: 12px;
     -webkit-box-shadow: 15px 15px 33px -15px rgba(49, 28, 28, 0.85);
     -moz-box-shadow: 15px 15px 33px -15px rgba(0, 0, 0, 0.85);
-    box-shadow: 15px 15px 33px -15px rgba(0, 0, 0, 0.85); }
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    min-height: 16rem; }
   .reproductor__inicio__img--estilos img:hover {
     box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
     transform: scale(1.01);
@@ -781,16 +783,14 @@ ul {
     transform: scale(1.01);
     transition: .3s; }
   @media (min-width: 790px) {
-    .reproductor__inicio__img--estilos img {
-      height: 26rem; }
     .reproductor__inicio__img--estilos img:hover {
-      box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
-      transform: scale(1.01);
-      transition: .5s; }
+      box-shadow: 15px 15px 33px -15px rgba(0, 0, 0, 0.85);
+      transform: scale(1.02);
+      transition: .3s; }
       .reproductor__inicio__img--estilos img:hover .reproductor__inicio__boton__play {
-        transform: scale(1.2); }
+        transform: scale(1.15); }
     .reproductor__inicio__img--estilos .reproductor__inicio__boton__play:hover {
-      transform: scale(1.2); } }
+      transform: scale(1.15); } }
 
 .reproductor__inicio__boton__play {
   position: absolute;
