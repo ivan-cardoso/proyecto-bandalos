@@ -458,15 +458,16 @@ img {
   width: 100%; }
 
 .portada {
-  height: 90vh;
+  height: 93vh;
   background-image: url(../multimedia/portada-mobile-2.jpg);
-  background-size: cover;
-  background-attachment: fixed; }
+  background-size: cover; }
 
-@media (min-width: 450px) {
+@media (min-width: 400px) {
   .portada {
+    height: 100vh;
     background-image: url(../multimedia/img38.jpg);
-    background-position: center; } }
+    background-position: center;
+    background-attachment: fixed; } }
 
 .portada-bandalos {
   height: 100vh;
