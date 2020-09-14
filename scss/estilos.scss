@@ -334,75 +334,11 @@ ul{
 }
 
 
-
-.section__aftermovie{
-    .section__aftermovie--video{
-        filter: grayscale(.9);   
-    }
-    .letra{
-        position: relative;
-    }
-    .seccion__aftermovie_letrachina{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-        width: 20rem;
-    }
-    .seccion__aftermovie__subtitulo{
-        
-        font-family: 'Patua One', cursive;
-        color: white;
-        font-size: 1.2rem;
-        letter-spacing: .53rem;
-        text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.8); 
-        text-transform: uppercase;
-    }
-}
-@media (min-width:700px){
-    .section__aftermovie{
-     .seccion__aftermovie_letrachina{
-        position: absolute;
-        top: 25%;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        width: 38rem;
-    } 
-    .seccion__aftermovie__subtitulo{
-        font-size:2rem; 
-        letter-spacing: 1.165rem;
-        text-align: center;
-    } 
-     
-}
-    
-}
-@media (min-width:1000px){
-    .section__aftermovie{
-     .seccion__aftermovie_letrachina{
-        
-        width: 60rem;
-    } 
-     .seccion__aftermovie__subtitulo{
-        font-size:3rem; 
-        text-align: center;
-    } 
-}
-    
-}
-
-
-
-
 #sin__senal{
     background-image:
         url(../multimedia/fondo4.jpg);
         padding: 0 3rem 3rem 3rem; 
 }
-
-
 
 .reproductor__inicio__img--estilos{
     border-radius:12px ;
@@ -424,10 +360,6 @@ ul{
             transition: .3s;
         }
         @media (min-width:790px) {
-            img{
-                
-            }
-            
             img:hover{
                 
                 box-shadow: 15px 15px 33px -15px rgba(0,0,0,0.85);     
@@ -438,7 +370,6 @@ ul{
                 transform: scale(1.15);
                 }
             }
-            
             .reproductor__inicio__boton__play:hover{
                 transform: scale(1.15);
             }   
