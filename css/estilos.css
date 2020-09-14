@@ -89,14 +89,15 @@
   transform: scale(1.2);
   transition: .3s; }
 
-#footer a {
-  color: whitesmoke;
-  font-family: "Inconsolata", sans-serif;
-  font-size: bolder; }
-
-#footer a:hover {
-  color: white;
-  transform: scale(1.025); }
+#footer {
+  font-size: 1.1rem; }
+  #footer a {
+    color: whitesmoke;
+    font-family: "Inconsolata", sans-serif; }
+  #footer a:hover {
+    color: white;
+    letter-spacing: .07rem;
+    transition: all .3s; }
 
 .footer--estilo {
   background-color: #800e4ce0; }
@@ -337,7 +338,9 @@
   height: 100%; }
   .fechas .row {
     background-color: rgba(37, 41, 39, 0.5);
-    color: white; }
+    color: white;
+    margin-left: .1rem;
+    margin-right: .1rem; }
   .fechas .fechas__dia__numero {
     display: flex;
     align-items: center; }
@@ -769,24 +772,24 @@ ul {
     -moz-box-shadow: 15px 15px 33px -15px rgba(0, 0, 0, 0.85);
     box-shadow: 15px 15px 33px -15px rgba(0, 0, 0, 0.85); }
   .reproductor__inicio__img--estilos img:hover {
-    box-shadow: 0 0.9rem 0.8rem rgba(0, 0, 0, 0.6);
-    transform: scale(1.05);
-    transition: .5s; }
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+    transition: .3s; }
   .reproductor__inicio__img--estilos .reproductor__inicio__img--estilos:hover {
-    box-shadow: 0 0.9rem 0.8rem rgba(0, 0, 0, 0.8);
-    transform: scale(1.05);
-    transition: .5s; }
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+    transition: .3s; }
   @media (min-width: 790px) {
     .reproductor__inicio__img--estilos img {
-      height: 30rem; }
+      height: 26rem; }
     .reproductor__inicio__img--estilos img:hover {
-      box-shadow: 0 0.9rem 0.8rem rgba(0, 0, 0, 0.8);
-      transform: scale(1.015);
+      box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+      transform: scale(1.01);
       transition: .5s; }
-    .reproductor__inicio__img--estilos .reproductor__inicio__boton__play {
-      transform: scale(1.3); }
+      .reproductor__inicio__img--estilos img:hover .reproductor__inicio__boton__play {
+        transform: scale(1.2); }
     .reproductor__inicio__img--estilos .reproductor__inicio__boton__play:hover {
-      transform: scale(1.4); } }
+      transform: scale(1.2); } }
 
 .reproductor__inicio__boton__play {
   position: absolute;
@@ -951,4 +954,4 @@ ul {
   transition: .3s; }
 
 .btn {
-  padding: .84rem 1.4rem; }
+  padding: .84rem 1.55rem; }
