@@ -459,7 +459,7 @@ img {
 
 .portada {
   height: 90vh;
-  background-image: url(../multimedia/portada-mobile-2.jpg);
+  background-image: url(../multimedia/img-portada-2.jpg);
   background-size: cover; }
 
 @media (min-width: 450px) {
