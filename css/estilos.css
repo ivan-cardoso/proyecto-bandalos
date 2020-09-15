@@ -324,6 +324,10 @@
 .videoclips .videoclips__boton:hover {
   color: #800e4d9d; }
 
+.videoclips .videos_portada--margenes {
+  background-color: black;
+  padding: .6rem 0; }
+
 .modal {
   top: 20%; }
 
@@ -453,6 +457,84 @@
   height: 5rem;
   background-repeat: no-repeat;
   transform: translateY(1.8rem); }
+
+.bandalos__galeria .bandalos__galeria__carta {
+  height: 30rem;
+  margin: 1rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  cursor: pointer;
+  filter: grayscale(0.9);
+  box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.4);
+  position: relative; }
+
+.bandalos__galeria .bandalos__galeria__carta--1 {
+  background-image: url(../multimedia/goy-bandalos.jpg); }
+
+.bandalos__galeria .bandalos__galeria__carta--2 {
+  background-image: url(../multimedia/gui-1-bandalos.jpg); }
+
+.bandalos__galeria .bandalos__galeria__carta--3 {
+  background-image: url(../multimedia/img13.jpg); }
+
+.bandalos__galeria .bandalos__galeria__carta--4 {
+  background-image: url(../multimedia/gui-2-2.jpg); }
+
+.bandalos__galeria .bandalos__galeria__carta--5 {
+  background-image: url(../multimedia/chapi3.jpg); }
+
+.bandalos__galeria .bandalos__galeria__carta--6 {
+  background-image: url(../multimedia/sax-bandalos.jpg); }
+
+.bandalos__galeria .bandalos__galeria__carta--7 {
+  background-image: url(../multimedia/bat4.jpg); }
+
+.bandalos__galeria .bandalos__galeria__carta--8 {
+  background-image: url(../multimedia/bandalos-show.jpg);
+  background-position: top;
+  height: 25rem; }
+
+.bandalos__galeria .bandalos__carta__subtitulo {
+  margin-left: 1rem;
+  position: absolute;
+  top: 70%;
+  filter: none; }
+
+.bandalos__galeria h3 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+  filter: drop-shadow(2px 4px 6px black);
+  z-index: 999; }
+
+.bandalos__galeria p {
+  color: white;
+  font-size: 1.1rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+  filter: drop-shadow(2px 4px 6px black);
+  letter-spacing: .2rem; }
+
+.bandalos__galeria .bandalos__galeria__carta:hover {
+  transition: .3s;
+  filter: none;
+  transform: scale(1.015); }
+
+@media (min-width: 768px) {
+  .bandalos__galeria h3 {
+    transform: translateY(2.5rem); }
+  .bandalos__galeria p {
+    display: none; }
+  .bandalos__galeria .bandalos__galeria__carta--8 {
+    height: 30rem; }
+  .card:hover h3 {
+    transform: translateY(0);
+    transition: .6s; }
+  .card:hover p {
+    display: inline;
+    transition: .6s; } }
 
 img {
   width: 100%; }
@@ -721,7 +803,7 @@ ul {
 .seccion__carousel {
   background: #b46f66;
   background: linear-gradient(3.5deg, #da3050e8 20%, #dc3856 60%, #da3050 80%);
-  padding: 5rem 0; }
+  padding: 5rem 0 2.7rem 0; }
 
 .seccion__carousel--foto {
   width: 100%; }
@@ -737,7 +819,7 @@ ul {
     -webkit-box-shadow: 15px 15px 33px -15px rgba(49, 28, 28, 0.85);
     -moz-box-shadow: 15px 15px 33px -15px rgba(0, 0, 0, 0.85);
     box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
-    min-height: 16rem; }
+    max-height: 28rem; }
   .reproductor__inicio__img--estilos img:hover {
     box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
     transform: scale(1.01);

@@ -1,0 +1,103 @@
+.bandalos__galeria{
+    .bandalos__galeria__carta{
+        height: 30rem;
+        margin: 1rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        cursor: pointer;
+        filter: grayscale(.9);
+        box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.4);
+        position: relative;
+    }
+    .bandalos__galeria__carta--1{
+        background-image: url(../multimedia/goy-bandalos.jpg);
+        
+    }
+    .bandalos__galeria__carta--2{
+        background-image: url(../multimedia/gui-1-bandalos.jpg);
+        
+    }
+    .bandalos__galeria__carta--3{
+        background-image: url(../multimedia/img13.jpg);
+        
+    }
+    .bandalos__galeria__carta--4{
+        background-image: url(../multimedia/gui-2-2.jpg);
+        
+    }
+    .bandalos__galeria__carta--5{
+        background-image: url(../multimedia/chapi3.jpg);
+        
+    }
+    .bandalos__galeria__carta--6{
+        background-image: url(../multimedia/sax-bandalos.jpg); 
+    }
+    .bandalos__galeria__carta--7{
+        background-image: url(../multimedia/bat4.jpg);
+    }
+    .bandalos__galeria__carta--8{
+        background-image: url(../multimedia/bandalos-show.jpg);
+        background-position: top;
+        height: 25rem;
+    }
+    .subtitulo{
+        
+    }
+    .bandalos__carta__subtitulo{
+       margin-left: 1rem;
+       position: absolute;
+       top: 70%;
+       filter: none;
+    }
+    
+    h3{
+        font-family: $open-sans;
+        color: white;
+        font-size: 2.5rem; 
+        font-weight: bolder;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+        filter: drop-shadow(2px 4px 6px black);
+        z-index: 999;
+    }
+    p{
+        color: white;
+        font-size:1.1rem;
+        
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+        filter: drop-shadow(2px 4px 6px black);
+        letter-spacing: .2rem;
+    }
+    .bandalos__galeria__carta:hover{
+        transition: .3s;
+        filter: none;
+        transform: scale(1.015);
+    }
+}
+
+@media (min-width:768px){
+    .bandalos__galeria{
+        h3{
+            transform: translateY(2.5rem);
+        }
+        p{
+            display: none;
+        }
+        .bandalos__galeria__carta--8{
+            
+            height: 30rem;
+        }
+    }
+    .card:hover{
+        h3{
+            transform: translateY(0);
+            transition: .6s;
+        }
+        p{
+            display: inline;
+            transition: .6s;
+            
+        }
+    }
+    
+}

@@ -6,6 +6,7 @@
 @import "musica";
 @import "video";
 @import "fechas";
+@import "bandalos";
 
 img{
     width: 100%;
@@ -325,8 +326,9 @@ ul{
 .seccion__carousel{  
     background: rgb(180,111,102);
     background: linear-gradient(3.5deg, #da3050e8 20%, #dc3856 60%, #da3050 80%);
-    padding: 5rem 0;
+    padding: 5rem 0 2.7rem 0;
 }
+
 
 .seccion__carousel--foto{
     width: 100%;
@@ -346,7 +348,7 @@ ul{
             -webkit-box-shadow: 15px 15px 33px -15px rgba(49, 28, 28, 0.85);
             -moz-box-shadow: 15px 15px 33px -15px rgba(0,0,0,0.85);
             box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.5); 
-            min-height: 16rem;
+            max-height: 28rem;
         }
         img:hover{
             box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.3);   
