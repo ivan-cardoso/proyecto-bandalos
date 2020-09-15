@@ -524,17 +524,19 @@
 
 @media (min-width: 768px) {
   .bandalos__galeria h3 {
-    transform: translateY(2.5rem); }
+    transform: translateY(2.5rem);
+    transition: all  .6s; }
   .bandalos__galeria p {
-    display: none; }
+    display: none;
+    transition: all .6s; }
   .bandalos__galeria .bandalos__galeria__carta--8 {
     height: 30rem; }
   .card:hover h3 {
     transform: translateY(0);
-    transition: .6s; }
+    transition: all .6s; }
   .card:hover p {
     display: inline;
-    transition: .6s; } }
+    transition: all .6s; } }
 
 img {
   width: 100%; }
@@ -556,21 +558,20 @@ img {
   height: 100vh;
   background-image: url(../multimedia/fondo-bandalos-2.jpg);
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed; }
+  background-size: cover; }
 
 @media (min-width: 450px) {
   .portada-bandalos {
     background-image: url(../multimedia/nota-1.jpg);
-    background-position: top; } }
+    background-position: top;
+    background-attachment: fixed; } }
 
 .portada-musica {
   height: 100vh;
   width: 100%;
   background-image: url(../multimedia/gui-1-7.jpg);
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed; }
+  background-size: cover; }
 
 .portada-fechas {
   height: 100vh;
@@ -584,25 +585,18 @@ img {
     background-image: url(../multimedia/img27.jpg);
     height: 100vh; } }
 
-.portada-noticias {
-  height: 100vh;
-  background-image: url(../multimedia/img36.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed; }
-
 .portada-videoclips {
   height: 100vh;
   background-image: url(../multimedia/goyo-videoclip.jpg);
   background-position: bottom;
-  background-size: cover;
-  background-attachment: fixed; }
+  background-size: cover; }
 
 @media (min-width: 600px) {
   .portada-videoclips {
     background-image: url(../multimedia/portadaindex.jpg);
     background-position: center;
-    height: 100vh; } }
+    height: 100vh;
+    background-attachment: fixed; } }
 
 ul {
   list-style-type: none; }
