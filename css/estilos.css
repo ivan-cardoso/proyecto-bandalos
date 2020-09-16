@@ -156,7 +156,7 @@
     .seccion__noticias .card input[type='checkbox']:checked + .menu-content {
       transform: translateY(-80px); }
   .seccion__noticias .noticia__carta .noticia__carta--1 {
-    background-image: url(../multimedia/nota-1.jpg);
+    background-image: url(../multimedia/img37.jpg);
     background-size: contain;
     background-repeat: no-repeat; }
   .seccion__noticias .noticia__carta .noticia__carta--2 {
@@ -167,7 +167,7 @@
     background-image: url(../multimedia/nota-3.jpg);
     background-size: contain;
     background-repeat: no-repeat; }
-  @media (min-width: 700px) {
+  @media (min-width: 500px) {
     .seccion__noticias .noticia__carta .noticia__carta--1 {
       background-image: url(../multimedia/img37.jpg);
       background-size: cover;
