@@ -467,7 +467,8 @@
   cursor: pointer;
   filter: grayscale(0.9);
   box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.4);
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
 .bandalos__galeria .bandalos__galeria__carta--1 {
   background-image: url(../multimedia/goy-bandalos.jpg); }
@@ -518,24 +519,33 @@
   letter-spacing: .2rem; }
 
 .bandalos__galeria .bandalos__galeria__carta:hover {
-  transition: .3s;
+  transition: all .3s;
   filter: none;
   transform: scale(1.015); }
 
+.bandalos__galeria .bandalos__subtitulo__desktop {
+  display: none; }
+
 @media (min-width: 768px) {
-  .bandalos__galeria h3 {
-    transform: translateY(2.5rem);
-    transition: all  .6s; }
-  .bandalos__galeria p {
-    display: none;
-    transition: all .6s; }
-  .bandalos__galeria .bandalos__galeria__carta--8 {
-    height: 30rem; }
-  .card:hover h3 {
+  .bandalos__galeria {
+    overflow: hidden; }
+    .bandalos__galeria .bandalos__subtitulo__mobile {
+      display: none; }
+    .bandalos__galeria .bandalos__subtitulo__desktop {
+      display: block;
+      transform: translateY(10rem);
+      transition: all .6s; }
+    .bandalos__galeria p {
+      transition: all .6s; }
+    .bandalos__galeria .bandalos__galeria__carta--8 {
+      height: 30rem; }
+  .card:hover .bandalos__subtitulo__desktop {
     transform: translateY(0);
     transition: all .6s; }
+    .card:hover .bandalos__subtitulo__desktop h3 {
+      transition: all .6s;
+      color: white; }
   .card:hover p {
-    display: inline;
     transition: all .6s; } }
 
 img {
